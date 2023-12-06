@@ -1,0 +1,101 @@
+{
+    "status": "ok",
+    "code": 200,
+    "type": "settings",
+    "data": {
+        "en": {
+            "terms_conditions": {
+                "redirect_type": "in_app_browser",
+                "url": "https://portpos.com/eula",
+                "label": "Terms & Conditions",
+                "backstack": true,
+                "type": "link",
+                "icon": null,
+                "color": "primaryColor",
+                "disabled": false,
+                "auth_require": false,
+                "tier": 0
+            },
+            "privacy_policy": {
+                "redirect_type": "in_app_browser",
+                "url": "https://portpos.com/privacy",
+                "label": "Privacy Policy",
+                "backstack": true,
+                "type": "link",
+                "icon": null,
+                "color": "primaryColor",
+                "disabled": false,
+                "auth_require": false,
+                "web_target": "_blank",
+                "tier": 0
+            },
+            "app_languages": [
+                {
+                    "key": "en",
+                    "value": "English"
+                }
+            ],
+            "forget_password": {
+                "redirect_type": "external_browser",
+                "url": "https://support.portpos.com/support/tickets/new?ticket_form=report_an_issue",
+                "label": "Support Ticket",
+                "backstack": true,
+                "type": "link",
+                "icon": null,
+                "color": "primaryColor",
+                "disabled": false,
+                "auth_require": false,
+                "web_target": "_blank",
+                "tier": 0
+            },
+            "navigation_pane": [
+                {
+                    "redirect_type": "external_browser",
+                    "url": "https://support.portpos.com/",
+                    "label": "Help & Support",
+                    "backstack": false,
+                    "type": "navigation_item",
+                    "icon": "https://assets.portpos.com/app/static/icons/nav/help.svg",
+                    "color": "primaryColor",
+                    "disabled": false,
+                    "auth_require": false,
+                    "tier": 0,
+                    "web_target": "_blank",
+                    "ack_message": null
+                },
+                {
+                    "redirect_type": "external_browser",
+                    "url": "https://portpos.com/privacy",
+                    "label": "Privacy",
+                    "backstack": false,
+                    "type": "navigation_item",
+                    "icon": "https://assets.portpos.com/app/static/icons/nav/privacy.svg",
+                    "color": "primaryColor",
+                    "disabled": false,
+                    "auth_require": false,
+                    "tier": 0,
+                    "web_target": "_blank",
+                    "ack_message": null
+                }
+            ],
+            "bill_status_list": [
+                "All",
+                "Accepted",
+                "Pending",
+                "Rejected"
+            ],
+            "currency_list": [
+                "BDT",
+                "USD"
+            ]
+        }
+    },
+    "meta": {
+        "availableLanguages": [
+            {
+                "alias": "en",
+                "value": "English"
+            }
+        ]
+    }
+}
